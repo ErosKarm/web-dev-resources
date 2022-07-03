@@ -15,9 +15,11 @@ body {
   font-weight: 400;
   background-color: rgb(20, 20, 20);
 }
-
+/* ********************************************************** */
 /* CARDS CONTAINER */
+/* ********************************************************** */
 
+/* --CARDS--  */
 .cards {
   display: grid;
   max-width: 100rem;
@@ -47,6 +49,8 @@ body {
   border: 1px solid rgb(55, 55, 55);
 }
 
+/* --ICONS-- */
+
 .icon {
   height: 90%;
   font-size: 28rem;
@@ -54,15 +58,53 @@ body {
   position: absolute;
   left: 9rem;
   transition: 0.5s ease;
+  display: inline-block;
+}
+.card:hover .icon {
+  opacity: 30%;
+  transform: scale(102%);
 }
 
-.icon:hover {
-  opacity: 30%;
-}
+/* FONTS/HEADINGS */
 
 h3 {
   font-size: 2.4rem;
   letter-spacing: 1.5px;
   color: rgba(255, 255, 255, 0.8);
   display: inline-block;
+}
+
+.card:hover .heading-js {
+  color: #f8f804;
+}
+.card:hover .heading-html {
+  color: #d84924;
+}
+.card:hover .heading-css {
+  color: #2549d8;
+}
+.card:hover .heading-fonts {
+  color: #393d40;
+}
+
+.card:hover .heading-fonts-letter-1 {
+  color: rgb(199, 71, 71);
+}
+.card:hover .heading-fonts-letter-2 {
+  color: rgb(118, 118, 179);
+}
+.card:hover .heading-fonts-letter-3 {
+  color: yellow;
+}
+.card:hover .heading-fonts-letter-4 {
+  color: green;
+}
+.card:hover .heading-fonts-letter-5 {
+  color: rgb(90, 236, 236);
+}
+
+.card:hover .heading-fonts {
+  font-family: Roboto Slab;
+  font-size: 2.35rem;
+  padding-top: 8.6rem;
 }
