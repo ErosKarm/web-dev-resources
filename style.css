@@ -15,6 +15,47 @@ body {
   font-weight: 400;
   background-color: rgb(20, 20, 20);
 }
+
+/* ********************************************************** */
+/* HEADER */
+/* ********************************************************** */
+.header-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.6rem;
+}
+.header-logo {
+  color: rgba(255, 255, 255, 0.205);
+  font-size: 1.15rem;
+  letter-spacing: 1.2px;
+}
+
+.header-made-by {
+  color: rgba(255, 255, 255, 0.205);
+  font-size: 1.05rem;
+  letter-spacing: 1.2px;
+  position: relative;
+  margin-top: 1.6rem;
+}
+
+.header-github {
+  color: rgba(255, 255, 255, 0.305);
+  transition: 0.1s ease;
+}
+.header-github:hover {
+  color: rgba(255, 255, 255, 0.405);
+}
+
+.header-github-icon {
+  margin-left: 1.2rem;
+  font-size: 2.6rem;
+  padding-top: 0.2rem;
+  position: absolute;
+  margin-top: -1rem;
+}
+
 /* ********************************************************** */
 /* CARDS CONTAINER */
 /* ********************************************************** */
@@ -53,7 +94,7 @@ body {
 
 .icon {
   height: 90%;
-  font-size: 28rem;
+  font-size: 22rem;
   opacity: 2.5%;
   position: absolute;
   left: 9rem;
@@ -64,8 +105,9 @@ body {
   opacity: 30%;
   transform: scale(102%);
 }
-
-/* FONTS/HEADINGS */
+/* ********************************************************** */
+/* FONTS AND HEADINGS */
+/* ********************************************************** */
 
 h3 {
   font-size: 2.4rem;
@@ -74,6 +116,7 @@ h3 {
   display: inline-block;
 }
 
+/* HEADING COLOR CHANGES ON HOVER */
 .card:hover .heading-js {
   color: #f8f804;
 }
@@ -86,25 +129,47 @@ h3 {
 .card:hover .heading-fonts {
   color: #393d40;
 }
+.card:hover .heading-guides {
+  color: #f20000;
+}
+.card:hover .heading-img-mp4 {
+  color: #00ff00;
+}
+.card:hover .heading-icons {
+  color: #7048e8;
+}
+.card:hover .heading-design {
+  color: #099268;
+}
+.card:hover .heading-communities {
+  color: #5460e6;
+}
+.card:hover .heading-testing {
+  color: #964b00;
+}
 
-.card:hover .heading-fonts-letter-1 {
+.card:hover .heading-colors-letter-1 {
   color: rgb(199, 71, 71);
 }
-.card:hover .heading-fonts-letter-2 {
+.card:hover .heading-colors-letter-2 {
   color: rgb(118, 118, 179);
 }
-.card:hover .heading-fonts-letter-3 {
+.card:hover .heading-colors-letter-3 {
   color: yellow;
 }
-.card:hover .heading-fonts-letter-4 {
+.card:hover .heading-colors-letter-4 {
   color: green;
 }
-.card:hover .heading-fonts-letter-5 {
+.card:hover .heading-colors-letter-5 {
   color: rgb(90, 236, 236);
+}
+.card:hover .heading-colors-letter-6 {
+  color: rgb(248, 136, 8);
 }
 
 .card:hover .heading-fonts {
   font-family: Roboto Slab;
-  font-size: 2.35rem;
+  color: aquamarine;
+  font-size: 2.4rem;
   padding-top: 8.6rem;
 }
