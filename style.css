@@ -1,0 +1,68 @@
+/* DEFAULT SETTINGS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: rgb(20, 20, 20);
+}
+
+/* CARDS CONTAINER */
+
+.cards {
+  display: grid;
+  max-width: 100rem;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 2.4rem;
+  margin-top: 6.4rem;
+}
+
+.card {
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 30vh;
+  background: rgb(23, 23, 23);
+  border: 1px solid rgb(35, 35, 35);
+  border-radius: 10px;
+  padding: 2.4rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 0.1s ease;
+}
+.card:hover {
+  border: 1px solid rgb(55, 55, 55);
+}
+
+.icon {
+  height: 90%;
+  font-size: 28rem;
+  opacity: 2.5%;
+  position: absolute;
+  left: 9rem;
+  transition: 0.5s ease;
+}
+
+.icon:hover {
+  opacity: 30%;
+}
+
+h3 {
+  font-size: 2.4rem;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+}
