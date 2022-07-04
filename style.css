@@ -86,8 +86,41 @@ body {
   overflow: hidden;
   transition: 0.1s ease;
 }
-.card:hover {
-  border: 1px solid rgb(55, 55, 55);
+
+.card-html:hover {
+  box-shadow: inset 0px 0px 2px 0px #d84924;
+}
+.card-css:hover {
+  box-shadow: inset 0px 0px 2px 0px #2549d8;
+}
+.card-js:hover {
+  box-shadow: inset 0px 0px 2px 0px #f8f804;
+}
+.card-fonts:hover {
+  box-shadow: inset 0px 0px 2px 0px #393d40;
+}
+.card-guides:hover {
+  box-shadow: inset 0px 0px 2px 0px #f20000;
+}
+.card-colors:hover {
+  box-shadow: inset 0px 0px 2px 0px rgb(199, 71, 71),
+    inset 0px 0px 2px 0px rgb(118, 118, 179), inset 0px 0.5px 2px 0px yellow,
+    inset 0.5px 0px 2px 0px green;
+}
+.card-img-mp4:hover {
+  box-shadow: inset 0px 0px 2px 0px #00ff00;
+}
+.card-icons:hover {
+  box-shadow: inset 0px 0px 2px 0px #7048e8;
+}
+.card-design:hover {
+  box-shadow: inset 0px 0px 2px 0px #099268;
+}
+.card-communities:hover {
+  box-shadow: inset 0px 0px 2px 0px #5460e6;
+}
+.card-testing:hover {
+  box-shadow: inset 0px 0px 2px 0px #964b00;
 }
 
 /* --ICONS-- */
