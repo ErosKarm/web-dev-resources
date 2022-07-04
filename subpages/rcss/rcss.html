@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Resources</title>
-    <link rel="stylesheet" href="rhtml.css" />
+    <title>CSS Tools & Resources</title>
+    <link rel="stylesheet" href="scss.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,62 +15,53 @@
   </head>
   <body>
     <header>
-      <img class="hero-img" src="images/1051277.png" />
-      <h1>HyperText Markup Language</h1>
-      <h2 class="header-h2-text">HTML</h2>
+      <img class="hero-img" src="images/CSS3_logo.svg.png" />
+      <h1>Cascading Style Sheets</h1>
+      <h2 class="header-h2-text">CSS</h2>
     </header>
     <main>
       <div class="container">
         <div class="code-snippets">
           <h1 class="h12245">USEFUL CODE SNIPPETS</h1>
           <div class="code-snippet-1">
-            <h3>Startup HTML code</h3>
+            <h3>CSS MUST</h3>
             <p class="code-snippet-1-p">
-              Use <strong>! + tab</strong> shortcode in VSCode to autocomplete
-              this
+              Always include these 3 styles on your CSS. Make sure you use
+              <strong>REM</strong> as your main unit.
             </p>
             <pre>
-            <code class="code-snippet-code">
-    &lt;!DOCTYPE html&gt;
-    &lt;html lang="en"&gt;
-    &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title>Document&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-            </code>
-          </pre>
+             <code class="code-snippet-code">
+   * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    }
+   html {
+    font-size: 62.5%;
+     }
+                
+   body {
+      font-family: Poppins, sans-serif;
+      line-height: 1;
+      font-weight: 400;
+      background-color: rgb(20, 20, 20);
+     }
+                
+             </code>
+           </pre>
           </div>
           <div class="code-snippet-2">
-            <h3 class="h23455">
-              Startup HTML code /with style.css & script.js linked
-            </h3>
-            <p class="code-snippet-1-p">
-              &lt;link rel="stylesheet" href="style.css" /&gt; to link CSS.
-              &lt;script src="script.js"&gt;&lt;script&gt; to link CSS.
-            </p>
+            <div>
+              <h3 class="h23455">A Visual Reference of CSS Grid.</h3>
 
-            <pre>
-            <code class="code-snippet-code">
-    &lt;!DOCTYPE html&gt;
-    &lt;html lang="en"&gt;
-    &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    &lt;title>Document&lt;/title&gt;
-    &lt;link rel="stylesheet" href="style.css" /&gt; 
-    &lt;script src="script.js"&gt;&lt;script&gt; 
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;/body&gt;
-    &lt;/html&gt;
-            </code>
-          </pre>
+              <img class="grid-img" src="images/1ja49d3svo191.png" />
+            </div>
+            <div>
+              <h3 class="h23455">A Visual Reference of CSS Flexbox.</h3>
+
+              <img class="flex-img" src="images/rofzm44oka091.png" />
+            </div>
           </div>
         </div>
         <div class="html-resources">
@@ -78,11 +69,14 @@
           <div class="w3">
             <div class="w3-container">
               <div class="w3-cont-left">
-                <img class="w3school-img" src="images/W3Schools_logo.svg.png" />
-                <h4>W3school</h4>
+                <img
+                  class="w3school-img cssportal"
+                  src="images/cssportal.png"
+                />
+                <h4>CSS Portal</h4>
               </div>
               <div class="w3-cont-right">
-                <a href="https://www.w3schools.com/html/" target="_blank">
+                <a href="https://www.cssportal.com/" target="_blank">
                   <svg
                     class="link-icon"
                     stroke="currentColor"
@@ -106,10 +100,7 @@
                 ></a>
               </div>
             </div>
-            <p>
-              W3Schools is a freemium educational website for learning coding
-              online.
-            </p>
+            <p>CSSPortal has all the CSS tools and rules you will need.</p>
           </div>
           <div class="w3">
             <div class="w3-container">
@@ -156,12 +147,12 @@
           <div class="w3">
             <div class="w3-container">
               <div class="w3-cont-left">
-                <img class="w3school-img" src="images/css-tricks-3.png" />
-                <h4>mdn web docs</h4>
+                <img class="w3school-img" src="images/codrops.png" />
+                <h4>CSS3 Reference by Codrops</h4>
               </div>
               <div class="w3-cont-right">
                 <a
-                  href="https://css-tricks.com/snippets/html/glyphs/"
+                  href="https://tympanus.net/codrops/css_reference/"
                   target="_blank"
                 >
                   <svg
@@ -188,22 +179,58 @@
               </div>
             </div>
             <p>
-              Super useful reference, gives you HTML entity name, numeric code,
-              hex code and ISO code.
+              Another excellent CSS reference, this time from Codrops. Make sure
+              to check this one out, too.
+            </p>
+          </div>
+          <div class="w3">
+            <div class="w3-container">
+              <div class="w3-cont-left">
+                <img class="w3school-img caniuse" src="images/caniuse.png" />
+                <h4>Can I use?</h4>
+              </div>
+              <div class="w3-cont-right">
+                <a href="https://caniuse.com/" target="_blank">
+                  <svg
+                    class="link-icon"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 16 16"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M6.5 4a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V4.5H7a.5.5 0 01-.5-.5z"
+                      clip-rule="evenodd"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.354 3.646a.5.5 0 010 .708l-9 9a.5.5 0 01-.708-.708l9-9a.5.5 0 01.708 0z"
+                      clip-rule="evenodd"
+                    ></path></svg
+                ></a>
+              </div>
+            </div>
+            <p>
+              Up-to-date browser support tables for front-end technologies on
+              desktop and mobile browsers.
             </p>
           </div>
           <div class="w3">
             <div class="w3-container">
               <div class="w3-cont-left">
                 <img
-                  class="w3school-img"
-                  src="images/Download-youtube-play-red-logo-png-transparent-background-.png"
+                  class="w3school-img udemy-image"
+                  src="images/tutplus.png"
                 />
-                <h4>Youtube</h4>
+                <h4>30 CSS Selectors by Tutplus</h4>
               </div>
               <div class="w3-cont-right">
                 <a
-                  href="https://www.youtube.com/results?search_query=HTML"
+                  href="https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048"
                   target="_blank"
                 >
                   <svg
@@ -229,20 +256,23 @@
                 ></a>
               </div>
             </div>
-            <p>Youtube tutorials on HTML</p>
+            <p>
+              I find myself using this handy list of the 30 most important CSS
+              selectors from Tutplus all the time.
+            </p>
           </div>
           <div class="w3">
             <div class="w3-container">
               <div class="w3-cont-left">
                 <img
                   class="w3school-img udemy-image"
-                  src="images/udemy-logo-5315F166A4-seeklogo.com.png"
+                  src="images/css-guide.png"
                 />
-                <h4>Courses</h4>
+                <h4>CSS for People Who Hate CSS</h4>
               </div>
               <div class="w3-cont-right">
                 <a
-                  href="https://www.udemy.com/courses/search/?src=ukw&q=html"
+                  href="https://paulcpederson.com/articles/css-for-people-who-hate-css/"
                   target="_blank"
                 >
                   <svg
@@ -268,7 +298,85 @@
                 ></a>
               </div>
             </div>
-            <p>Udemy courses, that will help you learn HTML.</p>
+            <p>
+              Excellent guide on how to write better, cleaner and more reusable
+              CSS code.
+            </p>
+          </div>
+          <div class="w3">
+            <div class="w3-container">
+              <div class="w3-cont-left">
+                <img class="w3school-img udemy-image" src="images/clippy.png" />
+                <h4>Clippy</h4>
+              </div>
+              <div class="w3-cont-right">
+                <a href="https://bennettfeely.com/clippy/" target="_blank">
+                  <svg
+                    class="link-icon"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 16 16"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M6.5 4a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V4.5H7a.5.5 0 01-.5-.5z"
+                      clip-rule="evenodd"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.354 3.646a.5.5 0 010 .708l-9 9a.5.5 0 01-.708-.708l9-9a.5.5 0 01.708 0z"
+                      clip-rule="evenodd"
+                    ></path></svg
+                ></a>
+              </div>
+            </div>
+            <p>
+              A small tool to help you using the new and powerful clip-path
+              property.
+            </p>
+          </div>
+          <div class="w3">
+            <div class="w3-container">
+              <div class="w3-cont-left">
+                <img
+                  class="w3school-img udemy-image"
+                  src="images/easings.png"
+                />
+                <h4>CSS easing functions</h4>
+              </div>
+              <div class="w3-cont-right">
+                <a href="https://easings.net/" target="_blank">
+                  <svg
+                    class="link-icon"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 16 16"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M6.5 4a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V4.5H7a.5.5 0 01-.5-.5z"
+                      clip-rule="evenodd"
+                    ></path>
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.354 3.646a.5.5 0 010 .708l-9 9a.5.5 0 01-.708-.708l9-9a.5.5 0 01.708 0z"
+                      clip-rule="evenodd"
+                    ></path></svg
+                ></a>
+              </div>
+            </div>
+            <p>
+              An amazing collection of easing functions bo be used in CSS
+              transitions and animations.
+            </p>
           </div>
         </div>
       </div>
