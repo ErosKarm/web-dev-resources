@@ -51,10 +51,11 @@ h2 {
 }
 
 h3 {
+  font-size: 1.6rem;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .header-h2-text {
@@ -72,7 +73,7 @@ h4 {
 .container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 1400px;
+  width: 1700px;
   margin: 0 auto;
   gap: 25rem;
   color: white;
