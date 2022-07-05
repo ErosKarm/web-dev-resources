@@ -1,0 +1,210 @@
+/* DEFAULT SETTINGS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: rgb(20, 20, 20);
+}
+
+main {
+  padding-bottom: 10rem;
+}
+
+/* ********************************************************** */
+/* HEADER */
+/* ********************************************************** */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 15%;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 4.2rem;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.header-h2-text {
+  margin-bottom: 7rem;
+}
+
+.h23455 {
+  margin-top: 3.2rem;
+}
+
+/* ********************************************************** */
+/* CONTAINER */
+/* ********************************************************** */
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  width: 1700px;
+  margin: 0 auto;
+  gap: 15rem;
+  color: white;
+}
+
+.html-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.html-logo {
+  width: 50%;
+}
+
+pre {
+  background-color: rgb(30, 30, 30);
+  border-radius: 5px;
+}
+
+.h12245 {
+  margin-bottom: 4.2rem;
+  font-size: 2.2rem;
+}
+
+/* CODE SNIPPET 1 */
+
+.code-snippet-1-p {
+  margin-top: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.code-snippet-1 {
+  margin-bottom: 4.2rem;
+}
+
+.code-snippet-code {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+
+/* ********************************************************** */
+/* RESOURCES */
+/* ********************************************************** */
+
+/* 1# RESOURCE: W3SCHOOL */
+
+.w3 {
+  background-color: rgb(25, 25, 25);
+  padding: 1.2rem;
+  border-radius: 5px;
+  margin-bottom: 2.4rem;
+  cursor: pointer;
+}
+
+.w3:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.w3-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+
+.w3school-img {
+  width: 8%;
+}
+
+.w3-cont-left {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.w3-cont-right {
+  display: flex;
+  gap: 0.7rem;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}
+
+.udemy-image {
+  width: 15px;
+  height: 20px;
+}
+
+.font-icon {
+  margin-top: -2rem;
+  color: #7fffd4;
+}
+
+.google-fonts {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.google-img-main {
+  width: 45%;
+}
+
+.google-img-main:hover {
+  transform: scale(1.4);
+  transition: all 0.2s ease-in-out;
+}
+.google-img-main:not(:hover) {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.font-sizes {
+  margin-bottom: 3.2rem;
+}
+
+.font-size {
+  background-color: rgb(30, 30, 30);
+  padding: 1.6rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.size {
+  color: greenyellow;
+}
+
+.x443 {
+  margin-bottom: 5.2rem;
+}
